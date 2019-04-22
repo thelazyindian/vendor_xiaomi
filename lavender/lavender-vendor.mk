@@ -542,7 +542,6 @@ PRODUCT_PACKAGES += \
     imssettings \
     CNEService \
     DiracAudioControlService \
-    MiuiCamera \
     WfdService \
     com.qualcomm.location \
     dpmserviceapp \
