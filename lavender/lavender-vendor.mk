@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
     vendor/xiaomi/lavender/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/xiaomi/lavender/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/xiaomi/lavender/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/xiaomi/lavender/proprietary/etc/bluetooth/bt_profile.conf:system/etc/bluetooth/bt_profile.conf \
     vendor/xiaomi/lavender/proprietary/etc/bluetooth/interop_database.conf:system/etc/bluetooth/interop_database.conf \
     vendor/xiaomi/lavender/proprietary/etc/device_features/lavender.xml:system/etc/device_features/lavender.xml \
