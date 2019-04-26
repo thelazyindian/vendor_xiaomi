@@ -541,7 +541,6 @@ PRODUCT_PACKAGES += \
     embms \
     imssettings \
     CNEService \
-    DiracAudioControlService \
     WfdService \
     com.qualcomm.location \
     dpmserviceapp \
