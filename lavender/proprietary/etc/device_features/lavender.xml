@@ -324,4 +324,20 @@
     <float name="device_head_sar">0.962</float>
     <!-- device body sar value -->
     <float name="device_body_sar">0.838</float>
+    <!--The value of papar max level-->
+    <float name="paper_mode_max_level">255.0</float>
+    <!--The value of papar min level-->
+    <float name="paper_mode_min_level">58.0</float>
+    <!--whether paper mode and screen effect is compatible-->
+    <bool name="is_compatible_paper_and_screen_effect">true</bool>
+    <!--whether surpport paper mode animation-->
+    <bool name="support_papermode_animation">true</bool>
+    <!--These region support face unlock-->
+    <string-array name="support_face_unlock_region_global">
+        <item>ALL</item>
+    </string-array>
+    <!--These region support face unlock-->
+    <string-array name="support_face_unlock_region_dom">
+        <item>CN</item>
+    </string-array>
 </features>

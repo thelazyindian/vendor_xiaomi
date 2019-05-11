@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
     vendor/xiaomi/lavender/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/xiaomi/lavender/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/xiaomi/lavender/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/xiaomi/lavender/proprietary/etc/bluetooth/bt_profile.conf:system/etc/bluetooth/bt_profile.conf \
     vendor/xiaomi/lavender/proprietary/etc/bluetooth/interop_database.conf:system/etc/bluetooth/interop_database.conf \
     vendor/xiaomi/lavender/proprietary/etc/device_features/lavender.xml:system/etc/device_features/lavender.xml \
@@ -132,13 +133,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/xiaomi/lavender/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/xiaomi/lavender/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/lavender/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/lavender/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/xiaomi/lavender/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/xiaomi/lavender/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/xiaomi/lavender/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
-    vendor/xiaomi/lavender/proprietary/lib/libBaiduMapSDK_base_v5_0_0.so:system/lib/libBaiduMapSDK_base_v5_0_0.so \
-    vendor/xiaomi/lavender/proprietary/lib/libBaiduMapSDK_map_v5_0_0.so:system/lib/libBaiduMapSDK_map_v5_0_0.so \
     vendor/xiaomi/lavender/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
     vendor/xiaomi/lavender/proprietary/lib/libFidoCryptoJNI.so:system/lib/libFidoCryptoJNI.so \
     vendor/xiaomi/lavender/proprietary/lib/libFidoCrypto_system.so:system/lib/libFidoCrypto_system.so \
@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/libadvanced_crypto.so:system/lib/libadvanced_crypto.so \
     vendor/xiaomi/lavender/proprietary/lib/libadvanced_crypto_jni.so:system/lib/libadvanced_crypto_jni.so \
     vendor/xiaomi/lavender/proprietary/lib/libbluetooth_qti.so:system/lib/libbluetooth_qti.so \
-    vendor/xiaomi/lavender/proprietary/lib/libcall_native.so:system/lib/libcall_native.so \
     vendor/xiaomi/lavender/proprietary/lib/libcdsprpc_system.so:system/lib/libcdsprpc_system.so \
     vendor/xiaomi/lavender/proprietary/lib/libcert_parse.so:system/lib/libcert_parse.so \
     vendor/xiaomi/lavender/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
@@ -171,10 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/libfdpp.so:system/lib/libfdpp.so \
     vendor/xiaomi/lavender/proprietary/lib/libfdpp_jni.so:system/lib/libfdpp_jni.so \
     vendor/xiaomi/lavender/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/xiaomi/lavender/proprietary/lib/libfreetype.so:system/lib/libfreetype.so \
-    vendor/xiaomi/lavender/proprietary/lib/libgcanvas.so:system/lib/libgcanvas.so \
     vendor/xiaomi/lavender/proprietary/lib/libgifimage.so:system/lib/libgifimage.so \
-    vendor/xiaomi/lavender/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/xiaomi/lavender/proprietary/lib/libhttpserver.so:system/lib/libhttpserver.so \
     vendor/xiaomi/lavender/proprietary/lib/libimagepipeline.so:system/lib/libimagepipeline.so \
     vendor/xiaomi/lavender/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
@@ -203,8 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/xiaomi/lavender/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/lavender/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/xiaomi/lavender/proprietary/lib/libmorpho_group_portrait.so:system/lib/libmorpho_group_portrait.so \
-    vendor/xiaomi/lavender/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
     vendor/xiaomi/lavender/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/lavender/proprietary/lib/libmorpho_panorama_gp3.so:system/lib/libmorpho_panorama_gp3.so \
     vendor/xiaomi/lavender/proprietary/lib/libmorpho_sensor_fusion.so:system/lib/libmorpho_sensor_fusion.so \
@@ -214,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/liboctvm_runtime.so:system/lib/liboctvm_runtime.so \
     vendor/xiaomi/lavender/proprietary/lib/liboctvm_utils.so:system/lib/liboctvm_utils.so \
     vendor/xiaomi/lavender/proprietary/lib/liboemaids_system.so:system/lib/liboemaids_system.so \
-    vendor/xiaomi/lavender/proprietary/lib/libpowerkeeper_jni.so:system/lib/libpowerkeeper_jni.so \
     vendor/xiaomi/lavender/proprietary/lib/libprotobuf-cpp-full-rtti.so:system/lib/libprotobuf-cpp-full-rtti.so \
     vendor/xiaomi/lavender/proprietary/lib/libqcbor.so:system/lib/libqcbor.so \
     vendor/xiaomi/lavender/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
@@ -226,7 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
     vendor/xiaomi/lavender/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/lavender/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/lavender/proprietary/lib/libsdk_patcher_jni.so:system/lib/libsdk_patcher_jni.so \
     vendor/xiaomi/lavender/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/xiaomi/lavender/proprietary/lib/libsdsprpc_system.so:system/lib/libsdsprpc_system.so \
     vendor/xiaomi/lavender/proprietary/lib/libseccam.so:system/lib/libseccam.so \
@@ -241,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/libstatic-webp.so:system/lib/libstatic-webp.so \
     vendor/xiaomi/lavender/proprietary/lib/libsystemwapi_cert.so:system/lib/libsystemwapi_cert.so \
     vendor/xiaomi/lavender/proprietary/lib/libtzcom.so:system/lib/libtzcom.so \
-    vendor/xiaomi/lavender/proprietary/lib/libweibosdkcore.so:system/lib/libweibosdkcore.so \
     vendor/xiaomi/lavender/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/xiaomi/lavender/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/xiaomi/lavender/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -285,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.fingerprint@1.0.so:system/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/lavender/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
@@ -335,6 +325,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/com.quicinc.cne.server@1.0.so:system/lib64/com.quicinc.cne.server@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/xiaomi/lavender/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
+    vendor/xiaomi/lavender/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/xiaomi/lavender/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/lavender/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/lavender/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -352,7 +343,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/xiaomi/lavender/proprietary/lib64/libOpenCL_system.so:system/lib64/libOpenCL_system.so \
     vendor/xiaomi/lavender/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libQseeR2fServiceJNI.so:system/lib64/libQseeR2fServiceJNI.so \
     vendor/xiaomi/lavender/proprietary/lib64/libSeemplog.so:system/lib64/libSeemplog.so \
     vendor/xiaomi/lavender/proprietary/lib64/libTmsdk-2.0.10-mfr.so:system/lib64/libTmsdk-2.0.10-mfr.so \
     vendor/xiaomi/lavender/proprietary/lib64/libTmsdk-2.0.11-mfr.so:system/lib64/libTmsdk-2.0.11-mfr.so \
@@ -368,7 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so \
     vendor/xiaomi/lavender/proprietary/lib64/libcdsprpc_system.so:system/lib64/libcdsprpc_system.so \
     vendor/xiaomi/lavender/proprietary/lib64/libcert_parse.so:system/lib64/libcert_parse.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libcld80211_system.so:system/lib64/libcld80211_system.so \
     vendor/xiaomi/lavender/proprietary/lib64/libdce-1.1.17-mfr.so:system/lib64/libdce-1.1.17-mfr.so \
     vendor/xiaomi/lavender/proprietary/lib64/libdce-1.1.18-mfr.so:system/lib64/libdce-1.1.18-mfr.so \
     vendor/xiaomi/lavender/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -418,8 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/lavender/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/lavender/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libmorpho_group_portrait.so:system/lib64/libmorpho_group_portrait.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libmorpho_groupshot.so:system/lib64/libmorpho_groupshot.so \
     vendor/xiaomi/lavender/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/lavender/proprietary/lib64/libmorpho_panorama_gp3.so:system/lib64/libmorpho_panorama_gp3.so \
     vendor/xiaomi/lavender/proprietary/lib64/libmorpho_sensor_fusion.so:system/lib64/libmorpho_sensor_fusion.so \
@@ -434,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/liboctvm_runtime.so:system/lib64/liboctvm_runtime.so \
     vendor/xiaomi/lavender/proprietary/lib64/liboctvm_utils.so:system/lib64/liboctvm_utils.so \
     vendor/xiaomi/lavender/proprietary/lib64/liboemaids_system.so:system/lib64/liboemaids_system.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libpowerkeeper_jni.so:system/lib64/libpowerkeeper_jni.so \
     vendor/xiaomi/lavender/proprietary/lib64/libprotobuf-cpp-full-rtti.so:system/lib64/libprotobuf-cpp-full-rtti.so \
     vendor/xiaomi/lavender/proprietary/lib64/libqcbor.so:system/lib64/libqcbor.so \
     vendor/xiaomi/lavender/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
@@ -465,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/libstfaceunlockocl.so:system/lib64/libstfaceunlockocl.so \
     vendor/xiaomi/lavender/proprietary/lib64/libsystemwapi_cert.so:system/lib64/libsystemwapi_cert.so \
     vendor/xiaomi/lavender/proprietary/lib64/libtcp.so:system/lib64/libtcp.so \
-    vendor/xiaomi/lavender/proprietary/lib64/libtime_genoff_system.so:system/lib64/libtime_genoff_system.so \
     vendor/xiaomi/lavender/proprietary/lib64/libtzcom.so:system/lib64/libtzcom.so \
     vendor/xiaomi/lavender/proprietary/lib64/liburldetectorsys.so:system/lib64/liburldetectorsys.so \
     vendor/xiaomi/lavender/proprietary/lib64/libvis.so:system/lib64/libvis.so \
@@ -500,7 +485,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/lib64/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -536,6 +520,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lavender/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0 \
     QtiSystemService \
     QtiTelephonyService \
     embms \
@@ -546,4 +531,5 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon
+    WfdCommon \
+    chargeonlymode
