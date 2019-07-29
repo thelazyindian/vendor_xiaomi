@@ -873,7 +873,6 @@
     <spnOverride numeric="52501" spn="Singtel"/>
     <spnOverride numeric="52502" spn="Singtel"/>
     <spnOverride numeric="52503" spn="SGP-M1"/>
-    <spnOverride numeric="52505" spn="StarHub"/>
     <spnOverride numeric="52507" spn="SGP Call Zone"/>
     <spnOverride numeric="52508" spn="StarHub"/>
     <spnOverride numeric="52802" spn="PCSB"/>
@@ -916,7 +915,7 @@
     <spnOverride numeric="60400" spn="Orange MA"/>
     <spnOverride numeric="60401" spn="MOR IAM"/>
     <spnOverride numeric="60402" spn="inwi"/>
-    <spnOverride numeric="60501" spn="Orange"/>
+    <spnOverride numeric="60501" spn="Orange TN"/>
     <spnOverride numeric="60502" spn="TUNISIE TELECOM"/>
     <spnOverride numeric="60503" spn="TUNISIANA"/>
     <spnOverride numeric="60600" spn="Libyana"/>
@@ -925,7 +924,7 @@
     <spnOverride numeric="60702" spn="AFRICELL"/>
     <spnOverride numeric="60703" spn="GM COMIUM"/>
     <spnOverride numeric="60704" spn="Qcell"/>
-    <spnOverride numeric="60801" spn="SN ALIZE"/>
+    <spnOverride numeric="60801" spn="Orange SN"/>
     <spnOverride numeric="60802" spn="SN-SENTEL SG"/>
     <spnOverride numeric="60803" spn="SEN expresso"/>
     <spnOverride numeric="60901" spn="MR MATTEL"/>
@@ -938,10 +937,10 @@
     <spnOverride numeric="61104" spn="GNMTN"/>
     <spnOverride numeric="61105" spn="GINCL"/>
     <spnOverride numeric="61202" spn="MOOV CI"/>
-    <spnOverride numeric="61203" spn="Orange CI"/>
+    <spnOverride numeric="61203" spn="Orange"/>
     <spnOverride numeric="61204" spn="KoZ"/>
     <spnOverride numeric="61205" spn="MTN CI"/>
-    <spnOverride numeric="61302" spn="Orange Burkina"/>
+    <spnOverride numeric="61302" spn="Orange BF"/>
     <spnOverride numeric="61402" spn="Airtel"/>
     <spnOverride numeric="61403" spn="ETISALAT NER"/>
     <spnOverride numeric="61404" spn="Orange NE"/>
@@ -956,8 +955,8 @@
     <spnOverride numeric="61710" spn="EMTEL-MRU"/>
     <spnOverride numeric="61801" spn="LBR Lonestar Cell"/>
     <spnOverride numeric="61804" spn="Novafone 4G"/>
-    <spnOverride numeric="61807" spn="Orange Liberia"/>
-    <spnOverride numeric="61901" spn="Airtel"/>
+    <spnOverride numeric="61807" spn="Orange LBR"/>
+    <spnOverride numeric="61901" spn="Orange SL"/>
     <spnOverride numeric="61905" spn="Africell"/>
     <spnOverride numeric="62001" spn="GH MTN"/>
     <spnOverride numeric="62002" spn="GH Vodafone"/>
@@ -976,7 +975,7 @@
     <spnOverride numeric="62303" spn="Orange RCA"/>
     <spnOverride numeric="62304" spn="NationLink"/>
     <spnOverride numeric="62401" spn="MTN CAM"/>
-    <spnOverride numeric="62402" spn="Orange CAM"/>
+    <spnOverride numeric="62402" spn="Orange CM"/>
     <spnOverride numeric="62404" spn="Nexttel"/>
     <spnOverride numeric="62501" spn="CVMOVEL"/>
     <spnOverride numeric="62502" spn="Unitel T+"/>
@@ -1003,7 +1002,7 @@
     <spnOverride numeric="63102" spn="UNITEL"/>
     <spnOverride numeric="63104" spn="MOVICEL"/>
     <spnOverride numeric="63202" spn="MTN"/>
-    <spnOverride numeric="63203" spn="Orange BS"/>
+    <spnOverride numeric="63203" spn="Orange GB"/>
     <spnOverride numeric="63301" spn="C&amp;W SEY"/>
     <spnOverride numeric="63310" spn="Airtel"/>
     <spnOverride numeric="63401" spn="Zain SDN"/>
@@ -1043,7 +1042,7 @@
     <spnOverride numeric="64501" spn="Airtel"/>
     <spnOverride numeric="64502" spn="MTN ZM"/>
     <spnOverride numeric="64601" spn="Airtel"/>
-    <spnOverride numeric="64602" spn="Orange MG"/>
+    <spnOverride numeric="64602" spn="Orange"/>
     <spnOverride numeric="64604" spn="TELMA"/>
     <spnOverride numeric="64700" spn="Orange re"/>
     <spnOverride numeric="64701" spn="MAORE MOBILE"/>
